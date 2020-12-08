@@ -1,6 +1,6 @@
 package com.company;
 
-public class Predator extends Animals {
+public class Predator extends Animal {
     // В подобных классах-моделях лучше оставлять только свойства и геттеры и сеттеры
     private String predatorsSize;
 
@@ -8,15 +8,5 @@ public class Predator extends Animals {
     // чтобы в моделях хранилась бизнес-логика(в твоем случае, бизнес-логика - это действия, типа "съесть", "переместиться на другое поле" и т.д.),
     // за исключением каких-нибудь мелких расчетов в рамках самой модели.
     // В данном случае, логика по работе над сущностями должна храниться в отдельных классах
-    public void eatPredator() {
 
-    }
-
-    ;
-
-    public void eatHerbivorous() {
-
-    }
-
-    ;
 }

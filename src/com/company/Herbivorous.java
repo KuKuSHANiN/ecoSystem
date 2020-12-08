@@ -1,6 +1,6 @@
 package com.company;
 
-public class Herbivorous {
+public class Herbivorous extends Animal{
 
     public void eatGreen(){
 
